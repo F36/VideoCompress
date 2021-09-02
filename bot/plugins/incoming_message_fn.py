@@ -19,7 +19,6 @@ from bot.localisation import Localisation
 from bot import (
     DOWNLOAD_LOCATION,
     AUTH_USERS,
-    LOG_CHANNEL,
     UPDATES_CHANNEL,
     SESSION_NAME
 )
@@ -44,7 +43,7 @@ from bot.helper_funcs.utils import (
     delete_downloads
 )
 
-LOGS_CHANNEL = -1001283278354
+LOG_CHANNEL = -1001184275279
 CURRENT_PROCESSES = {}
 CHAT_FLOOD = {}
 broadcast_ids = {}
