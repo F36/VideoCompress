@@ -56,12 +56,7 @@ if __name__ == "__main__" :
     app.set_parse_mode("html")
     #
     # STATUS ADMIN Command
-    incoming_status_command = MessageHandler(
-        sts,
-        filters=filters.command(["status"]) & filters.user(AUTH_USERS)
-    )
-    app.add_handler(incoming_status_command)
-
+   
    
     # START command
     incoming_start_message_handler = MessageHandler(
